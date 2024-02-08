@@ -1,0 +1,54 @@
+body {
+  margin: 1em auto;
+  max-width: 40em;
+  width: 88%;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(345, 57%, 97%);
+}
+
+.container {
+  padding: 2rem;
+  border: 3px solid hsl(0, 0%, 30%);
+  border-radius: 11px;
+  background-color: #eee;
+  box-shadow: 10px 11px 5px -4px hsla(0, 0%, 20%);
+  height: 28rem;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input,
+textarea {
+  margin-bottom: 1em;
+}
+
+textarea {
+  height: 8em;
+}
+
+button {
+  padding: 0.2rem 0.4rem;
+  font-family: inherit;
+  background-color: hsl(345, 57%, 97%);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: hsl(345, 57%, 87%);
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 1px solid hsl(0, 0%, 30%);
+}
